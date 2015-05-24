@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ngRoute' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json chat-example@0.0.0 No repository field.
+5 warn package.json fs@0.0.2 fs is also the name of a node core module.
+6 warn package.json fs@0.0.2 No description
+7 warn package.json fs@0.0.2 No repository field.
+8 warn package.json fs@0.0.2 No README data
+9 warn package.json crypto@0.0.3 crypto is also the name of a node core module.
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'ngRoute', null ]
+12 verbose cache add name=undefined spec="ngRoute" args=["ngRoute",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'ngRoute',
+13 verbose parsed url   path: 'ngRoute',
+13 verbose parsed url   href: 'ngRoute' }
+14 silly lockFile dbd4fa39-ngRoute ngRoute
+15 verbose lock ngRoute /home/ubuntu/.npm/dbd4fa39-ngRoute.lock
+16 silly lockFile dbd4fa39-ngRoute ngRoute
+17 silly lockFile dbd4fa39-ngRoute ngRoute
+18 verbose addNamed [ 'ngRoute', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile c7fabb91-ngRoute ngRoute@
+21 verbose lock ngRoute@ /home/ubuntu/.npm/c7fabb91-ngRoute.lock
+22 silly addNameRange { name: 'ngRoute', range: '*', hasData: false }
+23 verbose request where is /ngRoute
+24 verbose request registry https://registry.npmjs.org/
+25 verbose request id ee7e184d6ff7fff0
+26 verbose url raw /ngRoute
+27 verbose url resolving [ 'https://registry.npmjs.org/', './ngRoute' ]
+28 verbose url resolved https://registry.npmjs.org/ngRoute
+29 verbose request where is https://registry.npmjs.org/ngRoute
+30 info trying registry request attempt 1 at 23:59:17
+31 http GET https://registry.npmjs.org/ngRoute
+32 http 404 https://registry.npmjs.org/ngRoute
+33 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=0',
+33 verbose headers   'content-length': '51',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Wed, 20 May 2015 23:59:18 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '0',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-jfk1023-JFK',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1432166358.168935,VS0,VE90' }
+34 silly registry.get cb [ 404,
+34 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'cache-control': 'max-age=0',
+34 silly registry.get     'content-length': '51',
+34 silly registry.get     'accept-ranges': 'bytes',
+34 silly registry.get     date: 'Wed, 20 May 2015 23:59:18 GMT',
+34 silly registry.get     via: '1.1 varnish',
+34 silly registry.get     age: '0',
+34 silly registry.get     connection: 'keep-alive',
+34 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+34 silly registry.get     'x-cache': 'MISS',
+34 silly registry.get     'x-cache-hits': '0',
+34 silly registry.get     'x-timer': 'S1432166358.168935,VS0,VE90' } ]
+35 silly lockFile c7fabb91-ngRoute ngRoute@
+36 silly lockFile c7fabb91-ngRoute ngRoute@
+37 error 404 404 Not Found: ngRoute
+37 error 404
+37 error 404 'ngRoute' is not in the npm registry.
+37 error 404 You should bug the author to publish it
+37 error 404 It was specified as a dependency of 'chat-example'
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, or http url, or git url.
+38 error System Linux 3.14.13-c9
+39 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "ngRoute"
+40 error cwd /home/ubuntu/workspace
+41 error node -v v0.10.35
+42 error npm -v 1.4.28
+43 error code E404
+44 verbose exit [ 1, true ]
